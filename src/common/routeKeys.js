@@ -1,0 +1,22 @@
+export const MODULE_ROUTE_KEYS = {
+    SPLASH: 'Splash',
+    LANGUAGE: 'Language',
+    USER: 'User',
+    DASHBOARD: 'Dashboard',
+    SETTINGS: 'Settings',
+    DUMMY: 'Dummy',
+    PERMISSIONS: "Permissions",
+    DFG: "Dfg",
+    ENROLLMENT: "Enrollment",
+    SERVICE: "Service",
+    ABOUTUS: "AboutUs",
+    SCHEDULE: "Schedule",
+    FACILITY: "Facility",
+    COMPLAINT: 'Complaint',
+    REPORTBUG: 'ReportBug',
+    HELPSUPPORT: 'HelpSupport',
+    INCIDENTREPORT: 'IncidentReport',
+    MCF: 'Mcf',
+    RRF: 'rrf',
+    CKC:'ckc'
+};

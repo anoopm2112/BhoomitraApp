@@ -1,0 +1,69 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Montserrat-Bold.ttf",
+      "sha1": "bf257f6f91f6522eccea6d4f28d57bb118c98729"
+    },
+    {
+      "path": "assets/fonts/Montserrat-Light.ttf",
+      "sha1": "20f1409a635c7f9b975ea13fe4f434398c62d0f9"
+    },
+    {
+      "path": "assets/fonts/Montserrat-Medium.ttf",
+      "sha1": "ca42fe10fa893f390472859405c7564095e4260f"
+    },
+    {
+      "path": "assets/fonts/Montserrat-Regular.ttf",
+      "sha1": "ff1eb5d360a42c0c675d8ecfca9a3e5b709d302a"
+    },
+    {
+      "path": "assets/fonts/Montserrat-SemiBold.ttf",
+      "sha1": "4ef29a9163b56df34a3486b98b24be3a3d0cdca6"
+    },
+    {
+      "path": "assets/fonts/Poppins-Regular.ttf",
+      "sha1": "58ca484f2ec5b8817a63136af362e1db1d29d49e"
+    },
+    {
+      "path": "assets/img/Slider.png",
+      "sha1": "fe84ff87368831808a36df98166908b3030734d2"
+    },
+    {
+      "path": "assets/img/Slider@2x.png",
+      "sha1": "aa87f90ea586b60ccd76730ba0accf4cab69b7f8"
+    },
+    {
+      "path": "assets/img/Slider@3x.png",
+      "sha1": "9c8c6599b93991f302131e473ecc400b8ad503ec"
+    },
+    {
+      "path": "assets/img/green-tvm.png",
+      "sha1": "1c0bf7ba669aca38ac79aa33cbddb805a9239365"
+    },
+    {
+      "path": "assets/img/green-tvm@2x.png",
+      "sha1": "4b654a8925dc59123dca45358c6515c365d56849"
+    },
+    {
+      "path": "assets/img/green-tvm@3x.png",
+      "sha1": "f21d15971f0fb0dc5f8d22d3f6629c7898bb81b4"
+    },
+    {
+      "path": "assets/img/trois-logo-large.png",
+      "sha1": "6f5bd94e92929c25bc4e0601aafe30b1fe28fe4b"
+    },
+    {
+      "path": "assets/img/trois-logo.png",
+      "sha1": "7a992e90e08429e481052b2c500e2e05eced651d"
+    },
+    {
+      "path": "assets/img/trois-logo@2x.png",
+      "sha1": "9e891fed10822a17ef8dbfafe9fe58deb37472a5"
+    },
+    {
+      "path": "assets/img/trois-logo@3x.png",
+      "sha1": "0d658a2da6e25782c02b37b533ead32af1d1f8a7"
+    }
+  ]
+}

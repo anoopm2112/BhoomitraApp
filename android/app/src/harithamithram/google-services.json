@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "189288849424",
+    "project_id": "innate-grail-329303",
+    "storage_bucket": "innate-grail-329303.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189288849424:android:4a59e92ebd2fbb9c28aa95",
+        "android_client_info": {
+          "package_name": "in.tr.bhoom.rn.harithamithram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189288849424-9n224d0fninro0kbok8jvchtmk5219uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzNuJ7WM1-WulZbIM5mEIwB60KOxTj4Mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189288849424-9n224d0fninro0kbok8jvchtmk5219uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

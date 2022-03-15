@@ -1,0 +1,85 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        compileSdkVersion = 30
+        buildToolsVersion = "30.0.2"
+        minSdkVersion = 23
+        targetSdkVersion = 30
+        playServicesVersion = "17.0.0"
+        ndkVersion = "23.0.7599858"
+    }
+    repositories {
+        google()
+        mavenCentral() //adding maven central as jcenter will shutdown in near future
+        jcenter() // using jcenter as fallback since some of the dependencies are not available in maven central
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:4.2.0")
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        classpath "com.bugsnag:bugsnag-android-gradle-plugin:5.8.1"
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url("$rootDir/../node_modules/react-native/android")
+        }
+        maven {
+            // Android JSC is installed from npm
+            url("$rootDir/../node_modules/jsc-android/dist")
+        }
+
+        google()
+        mavenCentral() //adding maven central as jcenter will shutdown in near future
+        jcenter() // using jcenter as fallback since some of the dependencies are not available in maven central
+        maven { url 'https://www.jitpack.io' }
+    }
+}
+
+subprojects{
+    afterEvaluate { subproject ->
+        
+        //to fix the minSdkVersion warning from jail-monkey dependency, while running ./gradlew clean build --refresh-dependencies
+        if(subproject.name.equals("jail-monkey") && subproject.hasProperty('android')){
+            android {
+                compileSdkVersion rootProject.ext.compileSdkVersion
+                buildToolsVersion rootProject.ext.buildToolsVersion
+
+                defaultConfig {
+                    minSdkVersion rootProject.ext.minSdkVersion
+                    targetSdkVersion rootProject.ext.targetSdkVersion
+                }
+            }
+        }
+
+        // adding lint options to all submodules - to fix build fail due to lint error, while running ./gradlew clean build --refresh-dependencies
+        android {
+            lintOptions {
+                //disable lint
+                tasks.lint.enabled = false
+            }
+
+            //disable unit test
+            testOptions {
+                unitTests.all {
+                    enabled false
+                }
+            }
+        }
+    }
+
+    //disable javadocs to prevent error while running ./gradlew clean build --refresh-dependencies
+    tasks.withType(Javadoc).all { 
+        enabled = false 
+    }
+
+    //disable tests for dependencies
+    tasks.withType(Test) {
+        enabled = false
+    }
+}

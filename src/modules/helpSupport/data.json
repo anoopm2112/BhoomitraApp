@@ -1,0 +1,84 @@
+{
+    "sendFeedback":{
+        "departments":{
+            "options":[
+                {
+                    "pk":1,
+                    "id":1,
+                    "name":{
+                        "en_IN": "Health Department",
+                        "ml_IN": "ആരോഗ്യ വകുപ്പ്",
+                        "mr_IN": "आरोग्य विभाग"
+                    }
+                },
+                {
+                    "pk":2,
+                    "id":2,
+                    "name":{
+                        "en_IN": "Child and Women Safety Department",
+                        "ml_IN": "കുട്ടികളുടെയും സ്ത്രീകളുടെയും സുരക്ഷ വകുപ്പ്",
+                        "mr_IN": "बाल आणि महिला सुरक्षा विभाग"
+                    }
+                }
+            ]
+        }
+    },
+    "phoneSupport":{
+        "app":{
+            "contact":""
+        },
+        "departments":{
+            "options":[
+                {
+                    "pk":1,
+                    "id":1,
+                    "name":{
+                        "en_IN": "Health Department",
+                        "ml_IN": "ആരോഗ്യ വകുപ്പ്",
+                        "mr_IN": "आरोग्य विभाग"
+                    },
+                    "contact":""
+                },
+                {
+                    "pk":2,
+                    "id":2,
+                    "name":{
+                        "en_IN": "Child and Women Safety Department",
+                        "ml_IN": "കുട്ടികളുടെയും സ്ത്രീകളുടെയും സുരക്ഷ വകുപ്പ്",
+                        "mr_IN": "बाल आणि महिला सुरक्षा विभाग"
+                    },
+                    "contact":""
+                }
+            ]
+        }
+    },
+    "emailSupport":{
+        "app":{
+            "contact":""
+        },
+        "departments":{
+            "options":[
+                {
+                    "pk":1,
+                    "id":1,
+                    "name":{
+                        "en_IN": "Health Department",
+                        "ml_IN": "ആരോഗ്യ വകുപ്പ്",
+                        "mr_IN": "आरोग्य विभाग"
+                    },
+                    "contact":""
+                },
+                {
+                    "pk":2,
+                    "id":2,
+                    "name":{
+                        "en_IN": "Child and Women Safety Department",
+                        "ml_IN": "കുട്ടികളുടെയും സ്ത്രീകളുടെയും സുരക്ഷ വകുപ്പ്",
+                        "mr_IN": "बाल आणि महिला सुरक्षा विभाग"
+                    },
+                    "contact":""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="export_variables">
+        <item>app_name</item>
+        <item>app_name_key</item>
+        <item>app_slogan_key</item>
+        <item>app_powered_by</item>
+        <item>app_login_icon</item>
+        <item>app_play_store_link</item>
+        <item>app_term_condition</item>
+        <item>app_policy_privacy</item>
+    </string-array>
+    <string name="app_name">Nagpur SmartCity</string>
+    <string name="app_name_key">nagpursmartcity_name</string>
+    <string name="app_slogan_key">nagpursmartcity_slogan</string>
+    <string name="app_powered_by">nagpursmartcity_powered_by</string>
+    <string name="app_login_icon">nagpursmartcity_app_login_icon</string>
+    <string name="app_play_store_link"></string>
+    <string name="app_term_condition"></string>
+    <string name="app_policy_privacy"></string>
+</resources>

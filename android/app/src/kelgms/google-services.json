@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1087987325901",
+    "project_id": "kelgms-92f85",
+    "storage_bucket": "kelgms-92f85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087987325901:android:f41570d439a9b7dc180284",
+        "android_client_info": {
+          "package_name": "in.tr.bhoom.rn.kelgms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087987325901-5gru4bfsjtl7jjtbje7h7mk9g6cv85ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLI_5U_sB-SXO4EQU-0A0VubZLhvmEq-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087987325901-5gru4bfsjtl7jjtbje7h7mk9g6cv85ht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

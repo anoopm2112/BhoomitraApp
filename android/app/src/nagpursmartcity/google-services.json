@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "303286915366",
+    "project_id": "nagpur-smartcity-gms",
+    "storage_bucket": "nagpur-smartcity-gms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303286915366:android:038eb0e31f77445cd1f1e7",
+        "android_client_info": {
+          "package_name": "in.tr.bhoom.rn.nagpursmartcity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303286915366-upcgm65cetcpglek5vl0659c9du5ucr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWZ-xFD0JsT1eLvfFYKLEYxGSZ4qnLn10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303286915366-upcgm65cetcpglek5vl0659c9du5ucr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
